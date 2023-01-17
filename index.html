@@ -6,53 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment2: Student Registration Form</title>
-    <style>
-        .center {
-            text-align: center;
-        }
-
-        form {
-            margin: auto;
-        }
-
-        form table {
-            margin: auto;
-        }
-
-        form table tr {
-            line-height: 24px;
-        }
-
-        #student-record {
-            border: 2px solid red;
-        }
-
-        footer {
-            /* border: 2px solid red; */
-            font-weight: 900;
-            display: inline-block;
-            position: fixed;
-            left: 87%;
-            top: 96.5%;
-            width: 200px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <main>
-        <header class="center">
+        <header >
             <h1>Student Registration Form</h1>
         </header>
 
         <form action="">
-            <table>
+            <table id="form-table">
                 <tr>
                     <td>
                         <label for="firstname">Name<span>:</span></label>
                     </td>
                     <td>
-                        <input type="text" name="firstname" id="firstname">
+                        <input type="text" name="firstname" id="firstname" class="width">
                     </td>
                 </tr>
 
@@ -61,7 +31,7 @@
                         <label for="phonenumber">Phone No<span>:</span></label>
                     </td>
                     <td>
-                        <input type="number" name="phonenumber" id="phonenumber">
+                        <input type="number" name="phonenumber" id="phonenumber" class="width">
                     </td>
                 </tr>
 
@@ -70,7 +40,7 @@
                         <label for="dob"> Date of Birth <span>:</span></label>
                     </td>
                     <td>
-                        <input type="date" id="dob" name="dob">
+                        <input type="date" id="dob" name="dob" class="width">
                     </td>
                 </tr>
 
@@ -79,7 +49,7 @@
                         <label for="">Address <span>:</span></label>
                     </td>
                     <td>
-                        <textarea name="address" id="" cols="25" rows="6"></textarea>
+                        <textarea name="address" id="" cols="30" rows="6"></textarea class="width">
                     </td>
                 </tr>
 
@@ -93,7 +63,7 @@
                     </td>
                 </tr>
 
-                <tr>
+                <tr id="course">
                     <td>
                         <label> Course <span>:</span> </label>
                     </td>
@@ -134,16 +104,16 @@
                 </tr>
 
                 <tr>
-                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit"></td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" class="btn"></td>
                     <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input
-                            type="reset"></td>
+                            type="reset" class="btn"></td>
                 </tr>
             </table>
 
             <br>
             <br>
             <!-- student record -->
-            <table id="student-record">
+            <table id="student-record" border="3">
                 <caption>
                     <h2 class="center">HTML TABLE</h2>
                 </caption>

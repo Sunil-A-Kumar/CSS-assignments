@@ -1,0 +1,120 @@
+body{
+    padding:0px;
+    margin:0px;
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgb(231, 195, 238);
+    backdrop-filter: blur(5px);
+    box-sizing: border-box;
+    /* position:relative; */
+    background-image: url(./img/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.webp);
+    opacity: .8;
+}
+
+header{
+    border:2px solid transparent;
+    position: sticky;
+    top:2%;
+    background-color: rgb(18, 12, 18);
+
+}
+
+header h1{
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: center;
+    color:white;
+}
+
+main{
+    width:40%;
+    margin: auto;
+    padding:30px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    border-radius:33px;
+    box-sizing: border-box;
+    background-color: rgb(18, 12, 18);
+    /* opacity: 1; */
+}
+
+form{
+    border: 2px solid rgb(114, 51, 108);
+    background-color: rgb(254, 254, 254);
+}
+
+main table{
+    margin: auto;
+    /* text-align: center; */
+}
+
+#form-table tr{
+    height:77px;
+    width:82px;
+}
+
+label{
+    font-size: larger;
+}
+input{
+    padding:9px 15px;
+    border:2px solid rgb(191, 168, 196);
+    border-radius: 7px;
+    /* width:70px; */
+    /* margin-top:-23px; */
+}
+
+.width{
+    width:200px;
+}
+
+input[type="checkbox"]{
+    width:10px;
+}
+input[type="checkbox"]{
+    background-color: aquamarine;
+    width:20px;
+}
+
+/* course */
+#course select{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* submit and reset buttons */
+.btn{
+   background-color: rgb(116, 56, 189); 
+   padding:7px 9px;
+   font-size: medium;
+   color:white;
+   border:2px solid transparent;
+   border-radius: 13px;
+   width:100px;
+}
+
+.btn:hover{
+    background-color: black;
+}
+
+#student-record {
+    margin-bottom:45px ;
+}
+
+#student-record h2{
+    margin-bottom: 5px;;
+}
+
+
+/* footer */
+footer {
+    position:relative
+}
+
+footer span{
+    position: fixed;
+    /* top:89%; */
+    right:1%;
+    bottom:-1%;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+}
