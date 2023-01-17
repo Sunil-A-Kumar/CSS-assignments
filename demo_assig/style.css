@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.inline-blk{
+    display: inline-block;
+}
+
+#section1{
+    float:left;
+}
+
+#outer-box{
+    height:500px;
+    width:350px;
+    background-color: rgb(255, 153, 0);
+}
+
+#inner-box{
+    height:500px;
+    background-color:rgb(34, 34, 220);
+    width:350px;
+}
+
+#inner-inner-box{
+    height:500px;
+    background-color:rgb(29, 203, 32);
+    width:350px;
+}
+
+#section2{
+    float:right;
+    position: relative;
+}
+
+#outer-box2{
+    height:500px;
+    width:350px;
+    background-color: rgb(255, 153, 0);
+}
+
+
+#inner-box2{
+    height:500px;
+    background-color:rgb(34, 34, 220);
+    width:350px;
+}
+
+#inner-inner-box2{
+    height:500px;
+    background-color:rgb(29, 203, 32);
+    width:350px;
+}
+
+
+/* visibility property*/
+.visibility{
+    visibility:hidden; 
+    /* visibility:collapse;  */
+}
+
+/* display property*/
+.display{
+    display: inline-block;
+    /* display:none; */
+    /* display: inline; */
+    /* display: block; */
+}
+
+/* position */
+.fixed{
+    position: fixed;
+    left:46.6%;
+}
+
+.absolute{
+    position: absolute;
+    top:4.6%;
+    right:1%;
+}
+
+.sticky{
+    position: sticky;
+    top:50%;
+    right:50%;
+}
+
+.block{
+    display: block;
+    width:100%;
+}
