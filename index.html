@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEMO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- 1. Demo specifying the difference between rem,em,vh,vw,px. -->
+
+    <!-- 1.1 em -> em is a relative font size -->
+    <!-- <div id="outer">
+        outer has font size of 30px
+        <div id="inner">
+            i am using 0.5em font size
+        </div>
+    </div> -->
+
+    <!--1.2 vh and vw  -> viewport height and viewport width -->
+    <!-- <div id="vh-vw">
+        
+    </div> -->
+    
+    <!-- 1.3 px -> it is a absolute unit -->
+    <!-- <div id="px">
+        
+    </div> -->
+    
+    <!-- 1.4 rem -> root em -> consider size of element according to body font size -->
+    <!-- i am body  -->
+    <!-- <p id="rem">i will consider my size w.r.t to the body size . my font size is 4 times of body font size because of 4rem</p> -->
+
+    <!-- ----------------------------------------------------------------------------------------  -->
+    <!-- 2. Reduce css code using CSS chaining concept. -->
+
+    <!-- 2.1 using .classname.classname  -->
+    <!-- <section id="home">
+        <div class="orange blue">
+            <p>this is a line 1</p>
+        </div>
+
+        <div class="orange">
+            <p>this is a line 2</p>
+        </div>
+    </section> -->
+    
+    <!-- 2.2 using .classname .classname -->
+    <!-- <section id="home">
+        <div class="orange blue">
+            <p>this is a line 1</p>
+        </div>
+
+        <div class="orange" id="line2">
+            <p>this is a line 2</p>
+        </div>
+    </section> -->
+
+    <!-- 2.3 using element, element -->
+    <!-- <h1 id="ele2"> yes this is heading</h1>
+    <h1> this is a new para</h1>
+    <div class="ele1">
+        <p>this is a para</p>
+    </div>
+    <p>
+        this a alone para
+    </p> -->
+
+    <!-- 2.4 element element -->
+    <!-- <div id="deep">
+        <section>
+            <p>
+                hello how are you
+                <h3> i am a h3 heading</h3>
+            </p>
+        </section>
+        <h3> i am a h3 heading2</h3>
+    </div> -->
+
+    
+    <!-- ----------------------------------------------------------------------------------------------- -->
+    <!-- 3  Demo specifying difference between css combinators (>,+,~) -->
+    
+    <!-- 3.1 space combinator -->
+    <!-- The descendant selector matches all elements that are descendants of a specified element. -->
+    <!-- <div id="space">
+        <p> para 1</p>
+        <p> para 2</p>
+        <p> para 3</p>
+    </div>
+    <p> para 4</p>
+    <p> para 5</p> -->
+
+    <!-- 3.2  (>)combinator -->
+    <!-- The child selector selects all elements that are the children of a specified element. -->
+    <!-- <div id="greater-than">
+        <p>para 1</p>
+        <p>para 2</p>
+        <section>
+            <p>para 3</p>
+            <p>para 4</p>
+        </section>
+        <p>para 5</p>
+    </div>
+    <p>para 6</p> -->
+
+    <!-- 3.3 (+) combinator -->
+    <!-- immediate after a div or other tag element will get the properties -->
+    <!-- <div class="plus">
+        <p>para 1</p>
+        <p>para 2</p>
+        <div class="plus">
+            <p>para 3</p>
+        </div>
+        <p>para 4</p>
+    </div>
+    <p>para 5</p>
+    <p>para 6</p>
+    <p>para 7</p> -->
+
+    <!-- 3.4 (~) combinator -->
+    <!-- selects all elements that are next siblings of a specified element -->
+    <!-- <p>para 1</p>
+    <p>para 2</p>
+    <div id="neg">
+        <p>para 3</p>
+    </div>
+    <p>para 4</p>
+    <section>
+        <p>para 5</p>
+    </section>
+    <p>para 6</p> -->
+
+    <!-- -----------------------------------------------------------------------------------------  -->
+
+    <!-- 4. Create a demo for css transition and transform. -->
+
+    <!-- 4.1 CSS transitions and transform-->
+    <!-- <ol>
+        <li>transition</li>
+    </ol>
+    <div id="outer-box">
+        <p>CLICK on the RED BOX</p>
+        <p class="hidden">Welcome to gemini solutions</p>
+    </div> -->
+
+
+</body>
+</html>
